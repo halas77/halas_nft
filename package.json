@@ -1,0 +1,20 @@
+{
+  "name": "halas_nft",
+  "version": "1.0.0",
+  "description": "NFT project aims to grab deep knowledge about developing NFT.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "local": "npx hardhat ignition deploy ./ignition/modules/HalasNFT.ts --network localhost",
+    "script": "npx hardhat run client/script.ts --network localhost"
+  },
+  "author": "Dawit Mellese",
+  "license": "ISC",
+  "devDependencies": {
+    "@nomicfoundation/hardhat-toolbox": "^5.0.0",
+    "hardhat": "^2.22.9"
+  },
+  "dependencies": {
+    "@openzeppelin/contracts": "^5.0.2"
+  }
+}
