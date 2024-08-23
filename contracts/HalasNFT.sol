@@ -17,7 +17,6 @@ contract HalasNFT is ERC721, Ownable {
     ) public onlyOwner returns (uint26) {
         uint256 newTokenId = tokenCounter;
         _safeMint(recipient, newTokenId);
-        _safeT
 
     }
 }
